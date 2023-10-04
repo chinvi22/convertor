@@ -1,3 +1,11 @@
+/*
+This is a helper file containg all the logic use in postfix and prefix convertor and evaluator
+stacker class ::  is a stack maker
+checker :: is for checking the expression is postfix or prefix
+precedencer :: is for checking the precedence of the expression
+*/
+
+
 class stacker {
     constructor(size = 100) {
         this.size = size;
